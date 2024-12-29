@@ -3,7 +3,7 @@
 // import IncrementDecrementUseState from "./hooks/useStateHook/IncrementDecrementUseState";
 // import Registration from "./hooks/useStateHook/Registration";
 // import HowNotToFetchApi from "./hooks/useEffectHook/HowNotToFetchApi";
-import UseRef from "./hooks/useRefs";
+// import UseRef from "./hooks/useRefs";
 // import Pokemon from "./projects/Pokemon/pokemon";
 // import ContactForm from "./hooks/useStateHook/ContactForm";
 // import LoginForm from "./hooks/useStateHook/LoginForm";
@@ -13,6 +13,10 @@ import UseRef from "./hooks/useRefs";
 // import EventPropagation from "./components/EventPropagation";
 // import EventProps from "./components/EventProps";
 // import NetflixSeries from "./components/NetflixSeries";
+import PropDrilling from "./components/PropDrilling";
+
+// import { UseId } from "./hooks/useID/Index";
+// import { ForwardRefs } from "./hooks/useRefs/forwardRef";
 
 const App = () => {
   return (
@@ -31,7 +35,10 @@ const App = () => {
       {/* <ContactForm/> */}
       {/* <HowNotToFetchApi /> */}
       {/* <Pokemon/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
+      {/* <ForwardRefs /> */}
+      {/* <UseId /> */}
+      <PropDrilling />
     </>
   );
 };
